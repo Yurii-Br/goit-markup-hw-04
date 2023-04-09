@@ -117,7 +117,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-width: 1440px;
+  max-width: 1440px;
 }
 
 .hero-title {
@@ -345,13 +345,6 @@ body {
 .footer-site {
   background-color: var(--nav-blue);
   padding: 100px 0;
-}
-.footer-site p {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--light-bgr-cloud);
 }
 .logo-link-foot {
   display: inline-block;
