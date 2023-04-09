@@ -166,10 +166,6 @@ body {
   display: flex;
   gap: 24px;
 }
-.feature-img {
-  width: 64px;
-  height: 64px;
-}
 .child-list {
   width: calc((100% - 72px) / 4);
 }
@@ -244,12 +240,6 @@ body {
   display: flex;
   gap: 24px;
   justify-content: center;
-}
-.soc-med-img {
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  vertical-align: middle;
 }
 .soc-icons {
   width: 40px;
@@ -349,8 +339,6 @@ body {
 }
 
 .customers-img {
-  width: 104px;
-  height: 56px;
   fill: currentColor;
 }
 /* content-footer-studio */
@@ -504,8 +492,6 @@ body {
   color: var(--primary-bg);
 }
 .soc-med-foot {
-  height: 24px;
-  width: 24px;
   fill: var(--light-bgr-cloud);
 }
 .soc-list-foot {
