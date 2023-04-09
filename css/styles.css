@@ -112,8 +112,11 @@ body {
 /* block-hero */
 .hero-sect {
   background-color: var(--nav-blue);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/people-office.jpg");
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
