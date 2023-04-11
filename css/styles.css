@@ -467,11 +467,9 @@ body {
 .flex-foot {
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
 
-.logo-box-foot {
-  margin-right: 120px;
-}
 .soc-med-foot-title {
   margin-bottom: 16px;
   font-family: "Roboto", sans-serif;
