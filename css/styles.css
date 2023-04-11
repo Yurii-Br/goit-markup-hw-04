@@ -111,6 +111,7 @@ body {
 }
 /* block-hero */
 .hero-sect {
+  padding-top: 188px;
   background-color: var(--nav-blue);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -121,10 +122,10 @@ body {
   background-size: cover;
   background-position: center;
   max-width: 1440px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
-  padding-top: 192px;
   margin: 0 auto 48px;
   max-width: 496px;
   font-family: "Roboto";
@@ -135,9 +136,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-bg);
 }
-.hero-box {
-  padding-bottom: 192px;
-}
+
 .order-btn {
   margin: 0 auto;
   height: 56px;
@@ -234,7 +233,6 @@ body {
 }
 .part-of-photo-list {
   width: calc((100% - 48px) / 3);
-  border: 1px solid var(--btn-brd-collor);
   object-fit: cover;
 }
 /* block-our-team */
@@ -469,11 +467,8 @@ body {
 .flex-foot {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
-.soc-med-box {
-  padding-bottom: 130px;
-}
+
 .logo-box-foot {
   margin-right: 120px;
 }
